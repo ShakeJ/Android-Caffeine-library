@@ -3,6 +3,7 @@ package caffeine.utils;
 public class ConvertUtil
 {
    /**
+    * Hexa 코드를 Byte Array으로 변경 <br>
     * Hexa To byte array
     * @param hexa value
     * @return ByteArray
@@ -21,6 +22,7 @@ public class ConvertUtil
    
    
    /**
+    * Int 값을 IP 주소로 변경 <br>
     * Int To IP
     * @param intValue
     * @return IP
@@ -32,6 +34,7 @@ public class ConvertUtil
    
    
    /**
+    * Int를 String으로 변경 <br>
     * Int To String
     * @param intValue
     * @return String
@@ -43,7 +46,8 @@ public class ConvertUtil
    
    
    /**
-    * String to Int
+    * String을 Int로 변경 <br>
+    * String To Int
     * @param String
     * @return Int
     */
@@ -62,7 +66,8 @@ public class ConvertUtil
    
    
    /**
-    * String to Double
+    * String을 Double로 변경 <br>
+    * String To Double
     * @param String
     * @return Double
     */
@@ -73,7 +78,8 @@ public class ConvertUtil
    
    
    /**
-    * String to Float
+    * String을 Float으로 변경 <br>
+    * String To Float
     * @param String
     * @return Float
     */
@@ -84,7 +90,8 @@ public class ConvertUtil
    
    
    /**
-    * Decimal to Float
+    * Decimal을 Binary로 변경 <br>
+    * Decimal To Float
     * @param Decimal(int)
     * @return Binary
     */
@@ -95,7 +102,8 @@ public class ConvertUtil
    
    
    /**
-    * Decimal to Hexa
+    * Decimal을 Hexa로 변경 <br>
+    * Decimal To Hexa
     * @param Decimal(int)
     * @return Hexa
     */
@@ -106,7 +114,8 @@ public class ConvertUtil
    
    
    /**
-    * hexa to Deciaml
+    * Hexa를 Int로 변경 <br>
+    * hexa To Int
     * @param Hexa
     * @return Decimal(int)
     */
@@ -117,7 +126,8 @@ public class ConvertUtil
    
    
    /**
-    * ascil to String
+    * Ascii 코드를 String으로 변경 <br>
+    * ascii To String
     * @param ascil
     * @return String
     */
@@ -128,7 +138,8 @@ public class ConvertUtil
    
    
    /**
-    * String to boolean
+    * String을 Boolean으로 변경 <br>
+    * String To boolean
     * @param String
     * @return boolean
     */
@@ -161,7 +172,8 @@ public class ConvertUtil
    
    
    /**
-    * Int to boolean
+    * Int 값을 Boolean으로 변경 <br>
+    * Int To Boolean
     * @param Int
     * @return boolean
     */
