@@ -8,7 +8,7 @@ public class NetworkUtil
 {
    
    /**
-    * Get Mac address. <br />
+    * Get Mac address. <br>
     * (if Wi-Fi not on, dont get)
     * @param context
     * @return
