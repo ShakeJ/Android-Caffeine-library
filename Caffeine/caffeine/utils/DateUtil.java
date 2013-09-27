@@ -23,6 +23,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Convert date format
     * @param format
     * @param date
@@ -36,6 +37,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Convert date format
     * @param format
     * @param date
@@ -48,6 +50,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Current date in format
     * @param format
     * @return String
@@ -59,6 +62,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Current date
     * @return (String) yyyy-MM-dd HH:mm:ss
     */
@@ -69,6 +73,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Today date (Day)
     * @return (String) yyyy-MM-dd
     */
@@ -79,6 +84,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Current Time
     * @return HH:mm:ss
     */
@@ -89,6 +95,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * This year
     * @return year
     */
@@ -99,6 +106,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * This month
     * @return month
     */
@@ -109,6 +117,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Today
     * @return day
     */
@@ -119,6 +128,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * In this month, yyyy-MM
     * @return yyyy-MM 2011-04
     */
@@ -129,6 +139,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * yyyy-mm-dd to date
     * @param format yyyy-mm-dd
     * @param date
@@ -141,6 +152,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * yyyy-MM-dd HH:mm:ss to Date String
     * @param $fromFormat (yyyy-MM-dd HH:mm:ss)
     * @param $toFormat (yyyy-MM-dd)
@@ -161,6 +173,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Long to date
     * @param format
     * @param dateLong
@@ -176,6 +189,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From now to a few years ago or after few years
     * @param before or after year
     * @return yyyy-MM-dd
@@ -188,6 +202,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateString' to a few years ago or after few years
     * @param dateStr
     * @param efore or after year
@@ -200,6 +215,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateString' after few years
     * @param dateStr
     * @param add year
@@ -213,6 +229,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateString' after few years
     * @param dateStr
     * @param add year
@@ -238,6 +255,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From now to a few months ago or after few months
     * @param after or before month
     * @return yyyy-MM-dd
@@ -250,6 +268,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateStr' to a few months ago or after few months
     * @param dateStr
     * @param move month
@@ -262,6 +281,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateStr' after few months
     * @param dateStr
     * @param move month
@@ -275,6 +295,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateStr' after few months
     * @param dateStr
     * @param move month
@@ -300,6 +321,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From now to a few days ago or after few days
     * @param move
     * @return yyyy-MM-dd
@@ -312,6 +334,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From now to a few days ago or after few days
     * @param $add
     * @param $format 넘어 온 format과 가져갈 format이 같아야 함
@@ -325,6 +348,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateStr' to a few days ago or after few days
     * @param dateStr
     * @param move days
@@ -337,6 +361,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * From 'dateStr' to a few days ago or after few days
     * @param $dateStr
     * @param move days
@@ -350,7 +375,7 @@ public final class DateUtil
    
    
    /**
-    * $dateStr로 부터 $add 일 후
+    * $dateStr로 부터 $add 일 후 <br>
     * @param $dateStr
     * @param $add
     * @param $inFormat 넘어 온 format
@@ -375,7 +400,7 @@ public final class DateUtil
    
    
    /**
-    * 해당 년월의 마지막 날짜를 가져온다
+    * 해당 년월의 마지막 날짜를 가져온다 <br>
     * @param $year 년
     * @param $month 월
     * @return 마지막 날짜
@@ -392,7 +417,7 @@ public final class DateUtil
    
    
    /**
-    * 두 일시 중에 더 나중의 일시를 가져온다.
+    * 두 일시 중에 더 나중의 일시를 가져온다. <br>
     * @param $format 날짜 형식
     * @param $date1 비교할 일시1
     * @param $date2 비교할 일시2
@@ -420,6 +445,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * UTC + Locale Time<br />
     * <b>(only running device)</b>
     * @param format
@@ -447,6 +473,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Current UTC
     * @param format
     * @return
@@ -458,6 +485,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Get the day of the date
     * @param year 2012
     * @param month 5
@@ -473,6 +501,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Certain days of the date the other day bringing attention
     * @param year
     * @param month
@@ -489,6 +518,7 @@ public final class DateUtil
    
    
    /**
+    * <br>
     * Get the day of the 'Sun' date
     * @param $year 연도
     * @param $month 월

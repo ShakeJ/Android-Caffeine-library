@@ -5,6 +5,7 @@ import android.graphics.Bitmap;
 public class ImageUtil
 {
    /**
+    * <br>
     * Converted to the processed image blur (inputBitmap, radius)
     * @param inputBitmap
     * @param radius

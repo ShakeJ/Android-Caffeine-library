@@ -12,6 +12,7 @@ import android.view.WindowManager;
 public class DisplayUtil
 {
    /**
+    * <br>
     * The screen width and height
     * @return x=width, y=height
     */
@@ -24,6 +25,7 @@ public class DisplayUtil
    
    
    /**
+    * <br>
     * Is Landscape mode?
     * @return true=landscape
     */
@@ -35,6 +37,7 @@ public class DisplayUtil
    
    
    /**
+    * <br>
     * Return phone light wake time.
     * @return time
     */
@@ -45,6 +48,7 @@ public class DisplayUtil
    
    
    /**
+    * <br>
     * Is screen on?
     * @return true=on
     */
@@ -56,6 +60,7 @@ public class DisplayUtil
    
    
    /**
+    * <br>
     * Return device inch
     * @param activity
     * @return
@@ -79,7 +84,8 @@ public class DisplayUtil
    }
    
    
-   /*
+   /**
+    * <br>
     * Is 10-inch?
     * @param true=10inch
     */
@@ -90,6 +96,7 @@ public class DisplayUtil
    
    
    /**
+    * <br>
     * Is tablet?
     * @param context
     * @return true=tablet

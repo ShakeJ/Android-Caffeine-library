@@ -28,6 +28,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * put string value
     * @param key
     * @param value (String)
@@ -42,6 +43,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * Get string value
     * @param key
     * @return value (String, default value is null)
@@ -54,6 +56,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * Get string value, default value is ""
     * @param key
     * @return value (String, default value is "")
@@ -66,6 +69,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * put boleean value
     * @param key
     * @param value (boolean)
@@ -80,6 +84,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * Get boolean value
     * @param key
     * @param defalut value
@@ -93,6 +98,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * Put int value
     * @param key
     * @param value
@@ -107,6 +113,7 @@ public class PreferenceUtil
    
    
    /**
+    * <br>
     * Get int value
     * @param key
     * @param defalut value

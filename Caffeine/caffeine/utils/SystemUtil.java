@@ -20,6 +20,7 @@ import android.telephony.TelephonyManager;
 public class SystemUtil
 {
    /**
+    * App 버전명 가져오기 <br>
     * Return version name.
     * @return (ex) 0.0.1 (if Fail) fail
     */
@@ -39,6 +40,7 @@ public class SystemUtil
    
    
    /**
+    * App 버전 코드 가져오기 <br>
     * Return version code.
     * @return (ex) 1 (if Fail) -1
     */
@@ -58,6 +60,7 @@ public class SystemUtil
    
    
    /**
+    * 폰 모델 이름 가져오기 <br>
     * Return phone (model) name.
     * @return HTC Desire, GT-P7510
     */
@@ -68,6 +71,7 @@ public class SystemUtil
    
    
    /**
+    * 폰 전화번호 가져오기 <br>
     * Return phoneNumber
     * @return
     */
@@ -79,6 +83,7 @@ public class SystemUtil
    
    
    /**
+    * <br>
     * The inspection process is running at the top
     * @return true=foreground
     */
@@ -94,6 +99,7 @@ public class SystemUtil
    
    
    /**
+    * App이 현재 살아있는지 여부 확인 <br>
     * Check the app is alive
     * @return true=alive
     */
@@ -114,6 +120,7 @@ public class SystemUtil
    
    
    /**
+    * 가장 최상위 Activity인지를 확인 <br>
     * Inspect the highest activity in the left
     * @param Activity Name <br>
     *           Chat.class.getName() = com.caffein.testActivity
@@ -130,6 +137,7 @@ public class SystemUtil
    
    
    /**
+    * Base Activity인지를 확인 <br>
     * At the bottom of the stack check if the name of the database activity
     * @param Activity Name
     * @return
@@ -145,6 +153,7 @@ public class SystemUtil
    
    
    /**
+    * Wi-Fi가 연결이 되어져 있는지 확인 <br>
     * Is Wi-Fi connected?
     * @return true=connected
     */
@@ -156,6 +165,7 @@ public class SystemUtil
    
    
    /**
+    * 모바일 네트워크가 연결이 되어져 있는지 확인 <br>
     * Is MobileNetwork connected?
     * @return true=connected
     */
@@ -177,6 +187,7 @@ public class SystemUtil
    
    
    /**
+    * 네트워크에 연결이 되어있는지 확인 <br>
     * Is any network connected?
     * @return true=connected
     */
@@ -187,6 +198,7 @@ public class SystemUtil
    
    
    /**
+    * Android Id 가져오기 <br>
     * Return android_id<br />
     * (If factory reset, android_id is changed)
     * @param context
@@ -199,6 +211,7 @@ public class SystemUtil
    
    
    /**
+    * Debuggable 여부 확인 <br>
     * Return debuggable value in menifest
     * @return true=debuggable
     */
@@ -216,6 +229,7 @@ public class SystemUtil
    
    
    /**
+    * SD 카드가 있는지 여부 확인 <br>
     * Return Sd-Card device that you have.
     * @return ture=have
     */
@@ -226,6 +240,7 @@ public class SystemUtil
    
    
    /**
+    * 진동울리기 <br>
     * Vibrate
     * @param content
     * @param msec (time)
