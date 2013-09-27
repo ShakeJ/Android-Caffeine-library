@@ -8,7 +8,7 @@ public class NetworkUtil
 {
    
    /**
-    * <br>
+    * Mac Address 가져오기 (Wi-Fi가 연결이 되지 않으면 가져오지 못함) <br>
     * Get Mac address. <br>
     * (if Wi-Fi not on, dont get)
     * @param context

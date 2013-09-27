@@ -12,7 +12,7 @@ import android.view.WindowManager;
 public class DisplayUtil
 {
    /**
-    * <br>
+    * Screen Width, Height 가져오기 <br>
     * The screen width and height
     * @return x=width, y=height
     */
@@ -25,7 +25,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 가로모드인지 여부 판단 <br>
     * Is Landscape mode?
     * @return true=landscape
     */
@@ -37,7 +37,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 화면이 꺼질 때까지 걸리는 시간 가져오기 <br>
     * Return phone light wake time.
     * @return time
     */
@@ -48,7 +48,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 화면이 켜져있는지 여부 판단 <br>
     * Is screen on?
     * @return true=on
     */
@@ -60,7 +60,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 기기의 액정 사이즈를 Inch로 가져오기 <br>
     * Return device inch
     * @param activity
     * @return
@@ -85,7 +85,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 기기의 액정 사이즈가 10인치인지 여부 판단 <br>
     * Is 10-inch?
     * @param true=10inch
     */
@@ -96,7 +96,7 @@ public class DisplayUtil
    
    
    /**
-    * <br>
+    * 기기가 태블릿인지의 여부 판단 <br>
     * Is tablet?
     * @param context
     * @return true=tablet
