@@ -28,7 +28,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * String 저장하기 <br>
     * put string value
     * @param key
     * @param value (String)
@@ -43,7 +43,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * String 가져오기 (값이 없으면 null) <br>
     * Get string value
     * @param key
     * @return value (String, default value is null)
@@ -56,7 +56,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * String 가져오기 (값이 없으면 공백) <br>
     * Get string value, default value is ""
     * @param key
     * @return value (String, default value is "")
@@ -69,7 +69,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * Boolean 저장하기 <br>
     * put boleean value
     * @param key
     * @param value (boolean)
@@ -84,7 +84,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * Boolean 가져오기 <br>
     * Get boolean value
     * @param key
     * @param defalut value
@@ -98,7 +98,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * Int 저장하기 <br>
     * Put int value
     * @param key
     * @param value
@@ -113,7 +113,7 @@ public class PreferenceUtil
    
    
    /**
-    * <br>
+    * Int 가져오기 <br>
     * Get int value
     * @param key
     * @param defalut value
