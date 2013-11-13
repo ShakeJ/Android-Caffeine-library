@@ -54,7 +54,6 @@ public class FileUtil
          src = new FileInputStream(fromFile).getChannel();
          dst = new FileOutputStream(toFile).getChannel();
          src.transferTo(0, src.size(), dst);
-//			dst.transferFrom(src, 0, src.size());
          src.close();
          dst.close();
          
